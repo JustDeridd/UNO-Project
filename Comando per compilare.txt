@@ -1,0 +1,2 @@
+(COMANDO DEFINITIVO PER COMPILARE)
+gcc main.c logica.c database.c salvataggio.c grafica.c schermate.c eventi.c resource.res -o UNO.exe -I"C:/SDL2/include" -I"C:/xampp/mysql/include" -L"C:/SDL2/lib" "C:/xampp/mysql/lib/libmysql.lib" -lSDL2 -lSDL2_image -lSDL2_ttf -lm
